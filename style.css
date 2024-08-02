@@ -1,0 +1,96 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&family=Inter:wght@100..900&family=Mulish:ital,wght@0,200..1000;1,200..1000&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+}
+.mulish-font {
+    font-family: "Mulish", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+  }
+/*shared Items starts*/
+.title{
+    font-size: 2.6rem;
+    font-weight: 800;
+}
+.dark-2{
+    color: rgb(66, 66, 71);
+}
+.para-content{
+    font-size: 1.1rem;
+    font-weight: 400;
+    color: #BABEC4;
+    padding-top: 1.5rem;
+    padding-bottom: 1.5rem;
+}
+
+/*shared Items starts*/
+
+/*snavbar starts*/
+.navbar{
+    width: 90%;
+    margin: 3rem auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border: 2px solid black;
+}
+.logo{
+    display: flex;
+    align-items: center;
+    gap: 2rem;
+
+}
+.nav-options{
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    gap: 4rem;
+    font-size: 1.4rem;
+}
+
+/*navbar Items ends*/
+/* banner section start */
+.banner{
+    width: 90%;
+    margin: 0 auto;
+    background-image: linear-gradient(180.00deg, rgba(19, 19, 24, 0.8),rgba(19, 19, 24, 0) 100%), url("./Images/banner.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    /* padding: 5rem; */
+    height: 500px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    border-radius: 16px;
+    
+}
+.banner-title{
+    font-size: 4rem;
+    font-weight: 800;
+    color: white;
+}
+.banner-content{
+    width: 670px;
+}
+.input-box{
+    border-radius: 8px;
+   background: rgba(255, 255, 255, 0.3);
+   padding: 1.2rem;
+   backdrop-filter: blur;
+   gap: 0.5rem;
+}
+input, select{
+    width: 170px;
+    height: 35px;
+    padding: 0.5rem;
+    border-radius: 1rem;
+    border: none;
+}
+
+
+
+  
