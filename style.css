@@ -39,6 +39,8 @@
 }
 .para-color{
     color: rgba(19, 19, 24, 0.7);
+    width: 650px;
+    margin: 0 auto;
 }
 .btn-font{
     font-size: 1.25rem;
@@ -48,6 +50,8 @@
     margin: 1rem;
     
 }
+.text-center{
+text-align: center;}
 /*shared Items starts*/
 
 /*snavbar starts*/
@@ -154,9 +158,42 @@ input, select{
     width: 100%;
     height: 100%;
 }
-
 /* Tour sections ends */
-
+/* Destination section starts */
+.Destination{
+    width: 90%;
+    margin: 0 auto;
+}
+ .country-card{
+    position: relative;
+ }
+ .country-card img{
+    width: 100%;
+    height: 300px;
+    filter: brightness(70%);    
+ }
+ .country{
+    position: absolute;
+    color: white;
+    font-size: 1.8rem;
+    font-weight: 800;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+ }
+.row-1, .row-2, .row-3{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 1rem;
+    margin: 1rem 0;
+}
+.row-2{
+    grid-template-columns: 1fr 1.25fr .75fr;
+}
+.row-3{
+    grid-template-columns: .85fr 1.15fr;
+}
+/* Destination section ends */
 
 
   
