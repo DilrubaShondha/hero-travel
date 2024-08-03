@@ -24,7 +24,30 @@
     padding-top: 1.5rem;
     padding-bottom: 1.5rem;
 }
-
+.orange{
+    color: rgb(255, 84, 0);
+}
+.btn-primary{
+    background-color: rgb(255, 84, 0);
+    color: white;
+    width: 174px;
+    height: 50px;
+    padding: 0.5rem;
+    border-radius: 1rem;
+    border: none;
+    /* display: flex; */
+}
+.para-color{
+    color: rgba(19, 19, 24, 0.7);
+}
+.btn-font{
+    font-size: 1.25rem;
+    font-weight: 800;
+    height: auto;
+    padding: 1rem;
+    margin: 1rem;
+    
+}
 /*shared Items starts*/
 
 /*snavbar starts*/
@@ -34,7 +57,6 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    border: 2px solid black;
 }
 .logo{
     display: flex;
@@ -90,6 +112,50 @@ input, select{
     border-radius: 1rem;
     border: none;
 }
+#type{
+    width: 170px;
+    height: 35px;
+    padding: 0.5rem;
+    border-radius: 1rem;
+    border: none;
+}
+#time{
+    width: 170px;
+    height: 35px;
+    padding: 0.5rem;
+    border-radius: 1rem;
+    border: none;
+}
+/* Tour sections starts */
+.tour{
+    width: 90%;
+    display: flex;
+    margin: 0 auto;
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+.tour-text{
+    width: 50%;
+    text-align: left;
+    padding-right: 2rem;
+}
+.tour-text ul{
+    padding-left: 25px;
+}
+.tour-text li{
+    padding-top: .5rem;
+    padding-bottom: .5rem;
+}
+.tour-image{
+    border-radius:16px ;
+    width: 50%;
+}
+.tour-image img{
+    width: 100%;
+    height: 100%;
+}
+
+/* Tour sections ends */
 
 
 
