@@ -246,6 +246,78 @@ input, select{
 /* <!-- Package section starts --> */
 
 /* <!-- Package section ends --> */
+/* Newsletters stars here */
+.newsletter{
+    width: 90%;
+    margin: 0 auto;
+    display: flex;
+    gap: 1.5rem;
+}
+.newsletter-text{
+    width: 45%;
+    border: 1px solid orangered;
+    border-radius: 1rem;
+    padding-left: 2rem;
+    padding-top: 2.5rem;
+    padding-right: 2rem;
+}
+news-title{
+    font-size: 2.5rem;
+    font-weight: 800;
+}
+hr{
+    margin-bottom: 1rem;
+}
+.input-box{
+    display: flex;
+    gap: 1rem;
+    flex-direction: column;
+}
+input{
+    width: 100%;
+    margin: 0 auto;
+    height: 52px;
+    border-radius: 8px;
+    border: none;
+    padding: 1rem;
+    background: rgba(19, 19, 24, 0.05);
+}
+.submit-button{
+    width: 100%;
+    margin: 0 auto;
+    height: 52px;
+    color: white;
+    font-size: 1rem;
+    font-weight: 800;
+    margin-bottom: 0;
+}
+.newsletter-image{
+    width: 70%;
+    background-image: url("./Images/bandarban.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 400px;
+}
+.travels{
+    border-radius: 16px;
+    background: rgb(255, 84, 0);
+    color: white;
+    padding: 1rem;
+    width: 280px;
+    margin-left: 60%;
+    margin-top: 36%;
+    transform: rotate(-19.63deg);
+}
+.travels p{
+    font-size: 1.5rem;
+}
+.deals{
+    font-size: 2rem;
+    font-weight: 800;
+}
+/* Newsletters ends here */
+
 
 
 
