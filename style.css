@@ -40,8 +40,10 @@
 }
 .para-color{
     color: rgba(19, 19, 24, 0.7);
-    width: 650px;
     margin: 0 auto;
+}
+.para-width{
+    width: 650px;
 }
 .btn-font{
     font-size: 1.25rem;
@@ -131,33 +133,41 @@ input, select{
     border-radius: 1rem;
     border: none;
 }
-/* Tour sections starts */
-.tour{
+/* Tour and placesections starts */
+.tour, .place{
     width: 90%;
     display: flex;
     margin: 0 auto;
     margin-top: 100px;
     margin-bottom: 100px;
 }
-.tour-text{
+.tourplace-text{
     width: 50%;
     text-align: left;
-    padding-right: 2rem;
+    padding-right: 4rem;
 }
-.tour-text ul{
+.tourplace-text ul{
     padding-left: 25px;
 }
-.tour-text li{
+.tourplace-text li{
     padding-top: .5rem;
     padding-bottom: .5rem;
 }
-.tour-image{
+.tourplace-image{
+    /* height: 200px; */
     border-radius:16px ;
     width: 50%;
 }
-.tour-image img{
+
+.tourplace-image img{
     width: 100%;
-    height: 100%;
+    /* height: 100%; */
+}
+.tour-img img{
+    height: 530px;
+}
+.font-bold{
+    font-weight: 800;
 }
 /* Tour sections ends */
 /* Destination section starts */
@@ -199,7 +209,7 @@ input, select{
 .choose{
     width: 90%;
     margin: 0 auto;
-    border: 2px solid black;
+    margin-top: 5rem;
 }
 .choose-cards{
     width: 100%;
@@ -207,7 +217,6 @@ input, select{
     grid-template-columns: repeat(2, 1fr);
     gap: 1.5rem;
     padding: 1.3rem;
-
 }
 .choose-cards p{
     color: rgb(90, 90, 93);
@@ -220,20 +229,25 @@ input, select{
     border-radius: 16px;
     background: rgba(251, 181, 99, 0.05);
     padding: 1.3rem;
-
 }
 .card2{
     border: 1px solid rgba(41, 206, 246, 0.2);
     border-radius: 16px;
     background: rgba(41, 206, 246, 0.05);
     padding: 1.3rem;
-   
 }
 .choose-title{
     color: rgba(19, 19, 24);
     font-size: 1.5rem;
     font-weight: 800;
-    margin-bottom: 1rem;
-    
+    margin-bottom: 1rem;  
 }
+/* choose section ends here */
+/* <!-- Package section starts --> */
+
+/* <!-- Package section ends --> */
+
+
+
+
   
