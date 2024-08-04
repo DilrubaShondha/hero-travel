@@ -317,6 +317,37 @@ input{
     font-weight: 800;
 }
 /* Newsletters ends here */
+/* Footer starts here */
+.footer{
+    background-color:rgba(19, 19, 24, 0.05);
+    margin-top: 6rem;
+    padding-top: 6rem;
+    padding-bottom: 6rem;
+}
+.logo{
+    display: flex;
+    justify-content: center;
+}
+.social-icons{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+    font-size: 1.5rem;
+    margin-top: 1rem;
+    margin-bottom: 2.6rem;
+}
+hr{
+    width: 70%;
+    margin: 0 auto;
+    margin-bottom: 3rem;
+}
+.copyright{
+    color: rgb(19, 19, 24);
+    font-weight: 1rem;
+    font-weight: 300;
+}
+/* Footer ends here */
 
 
 
