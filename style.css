@@ -36,7 +36,6 @@
     padding: 0.5rem;
     border-radius: 1rem;
     border: none;
-    /* display: flex; */
 }
 .para-color{
     color: rgba(19, 19, 24, 0.7);
@@ -50,8 +49,7 @@
     font-weight: 800;
     height: auto;
     padding: 1rem;
-    margin: 1rem;
-    
+    margin: 1rem;   
 }
 .text-center{
 text-align: center;}
@@ -69,7 +67,6 @@ text-align: center;}
     display: flex;
     align-items: center;
     gap: 2rem;
-
 }
 .nav-options{
     display: flex;
@@ -88,7 +85,6 @@ text-align: center;}
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
-    /* padding: 5rem; */
     height: 500px;
     display: flex;
     justify-content: center;
@@ -147,7 +143,7 @@ input, select{
     padding-right: 4rem;
 }
 .tourplace-text ul{
-    padding-left: 25px;
+    padding-left: 1.5rem;
 }
 .tourplace-text li{
     padding-top: .5rem;
@@ -244,6 +240,17 @@ input, select{
 }
 /* choose section ends here */
 /* <!-- Package section starts --> */
+.deals{
+    width: 90%;
+    margin:0 auto ;
+    border: 2px solid black;
+}
+.package-card1{
+    background-image: url("./Images/beach-photo.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
 
 /* <!-- Package section ends --> */
 /* Newsletters stars here */
