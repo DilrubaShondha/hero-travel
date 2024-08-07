@@ -243,13 +243,63 @@ input, select{
 .deals{
     width: 90%;
     margin:0 auto ;
-    border: 2px solid black;
+    margin-top: 100px;
 }
-.package-card1{
+.package-card1, .package-card3 ,.package-card2{
     background-image: url("./Images/beach-photo.png");
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
+    height: 500px;
+    border-radius: 16px;
+}
+.package-card2{
+    background-image: url("./Images/beace-photo.png");
+}
+.package-box, .package-box3{
+    box-sizing: border-box;
+    border: 2px solid rgb(255, 255, 255);
+    border-radius: 16px;
+    backdrop-filter: blur(5px);
+    background: rgba(255, 255, 255, 0.8);
+    width: 579px;
+    height: 80%;
+    margin-left: 47%;
+    margin-top: 3rem;
+    margin-bottom: 3rem;
+}
+.package-box2{
+    box-sizing: border-box;
+    border: 2px solid rgb(255, 255, 255);
+    border-radius: 16px;
+    backdrop-filter: blur(5px);
+    background: rgba(255, 255, 255, 0.8);
+    width: 579px;
+    height: 400px;
+    margin-right: 47%;
+    margin-top: 3rem;
+    margin-bottom: 3rem;
+}
+.package-content{
+    width: 80%;
+    margin: 0 auto;
+    margin-top: 2rem;
+}
+.tour-place{
+    font-size: 1.5rem;
+    font-weight: 800;
+}
+.orange-color{
+    color: rgb(255, 84, 0);
+    font-size: 1.3rem;
+    font-weight: 800;
+    margin-bottom: 2rem;
+}
+.package-button{
+   margin-left: 40%;
+   font-weight: 800;
+   margin-top: 2rem;
+   font-size: 1rem;
 }
 
 /* <!-- Package section ends --> */
