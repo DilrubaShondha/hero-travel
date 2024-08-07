@@ -243,7 +243,10 @@ input, select{
 .deals{
     width: 90%;
     margin:0 auto ;
-    margin-top: 100px;
+    /* margin-top: 100px; */
+}
+.package-cards{
+    margin-top: 1rem;
 }
 .package-card1, .package-card3 ,.package-card2{
     background-image: url("./Images/beach-photo.png");
@@ -252,6 +255,8 @@ input, select{
     background-size: cover;
     height: 500px;
     border-radius: 16px;
+    padding-top: 4%;
+    margin-top: 1.5rem;
 }
 .package-card2{
     background-image: url("./Images/beace-photo.png");
@@ -263,10 +268,8 @@ input, select{
     backdrop-filter: blur(5px);
     background: rgba(255, 255, 255, 0.8);
     width: 579px;
-    height: 80%;
+    height: 400px;
     margin-left: 47%;
-    margin-top: 3rem;
-    margin-bottom: 3rem;
 }
 .package-box2{
     box-sizing: border-box;
@@ -276,9 +279,8 @@ input, select{
     background: rgba(255, 255, 255, 0.8);
     width: 579px;
     height: 400px;
-    margin-right: 47%;
-    margin-top: 3rem;
-    margin-bottom: 3rem;
+    margin-left: 5%;
+  
 }
 .package-content{
     width: 80%;
@@ -311,7 +313,7 @@ input, select{
     gap: 1.5rem;
 }
 .newsletter-text{
-    width: 45%;
+    width: 40%;
     border: 1px solid orangered;
     border-radius: 1rem;
     padding-left: 2rem;
@@ -321,9 +323,6 @@ input, select{
 news-title{
     font-size: 2.5rem;
     font-weight: 800;
-}
-hr{
-    margin-bottom: 1rem;
 }
 .input-box{
     display: flex;
@@ -340,28 +339,32 @@ input{
     background: rgba(19, 19, 24, 0.05);
 }
 .submit-button{
+    background-color: rgb(255, 84, 0);
+    color: white;
+    padding: 0.5rem;
+    border-radius: 1rem;
+    border: none;
     width: 100%;
     margin: 0 auto;
     height: 52px;
-    color: white;
     font-size: 1rem;
     font-weight: 800;
     margin-bottom: 0;
 }
 .newsletter-image{
-    width: 70%;
+    width: 55%;
     background-image: url("./Images/bandarban.png");
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
-    height: 400px;
+    height: 420px;
 }
 .travels{
     border-radius: 16px;
     background: rgb(255, 84, 0);
     color: white;
     padding: 1rem;
-    width: 280px;
+    width: 300px;
     margin-left: 60%;
     margin-top: 36%;
     transform: rotate(-19.63deg);
@@ -370,7 +373,7 @@ input{
     font-size: 1.5rem;
 }
 .deals{
-    font-size: 2rem;
+    font-size: 1.8rem;
     font-weight: 800;
 }
 /* Newsletters ends here */
