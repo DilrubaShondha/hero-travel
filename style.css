@@ -372,6 +372,11 @@ input{
 .travels p{
     font-size: 1.5rem;
 }
+.full{
+    width: 90%;
+    color: #595a5c;
+    margin-bottom: 1rem;
+}
 .deals{
     font-size: 1.8rem;
     font-weight: 800;
