@@ -106,18 +106,25 @@ text-align: center;}
    background: rgba(255, 255, 255, 0.3);
    padding: 1.2rem;
    backdrop-filter: blur;
-   gap: 0.5rem;
-   width: 700px;
-
-   /* display: flex;
-   flex-direction: row; */
+   gap: 1.5rem;
+   width: 800px;
+   display: grid;
+   grid-template-columns: repeat(4, 1fr);
 }
 input, select{
     width: 170px;
-    height: 35px;
+    height: 50px;
     padding: 0.5rem;
-    border-radius: 1rem;
+    border-radius: 0.5rem;
     border: none;
+    color: rgb(141, 134, 141);
+    font-size: 1rem;
+}
+.submit{
+    border-radius: .5rem;
+}
+.fa-magnifying-glass{
+    margin-right: .8rem;
 }
 #type{
     width: 170px;
