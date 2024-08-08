@@ -75,6 +75,9 @@ text-align: center;}
     gap: 4rem;
     font-size: 1.4rem;
 }
+.hum-barger{
+    display: none;
+}
 
 /*navbar Items ends*/
 /* banner section start */
@@ -140,7 +143,7 @@ input, select{
     border-radius: 1rem;
     border: none;
 }
-/* Tour and placesections starts */
+/* Tour and place sections starts */
 .tour, .place{
     width: 90%;
     display: flex;
@@ -223,18 +226,17 @@ input, select{
     width: 100%;
     display: grid;
     grid-template-columns: repeat(2, 1fr);
-    grid-template-rows: auto auto;
     gap: 1.5rem;
     padding: 1.3rem;
     margin: 0 auto; 
 }
-.card1, .card2, .card3 {
+/* .card1, .card2, .card3 {
     width: 100%; 
-    max-width: 600px;
-}
+} */
 .card3 {
     grid-column: 1 / 3; 
     justify-self: center; 
+    width: 50%;
 }
 .choose-cards p{
     color: rgb(90, 90, 93);
@@ -443,6 +445,109 @@ hr{
     font-weight: 300;
 }
 /* Footer ends here */
+/* Mobile devices */
+@media only screen and (max-width: 768px) {
+    /* navbar starts */
+    .hum-barger{
+        display: block;
+    }
+    .nav-options{
+        display: none;
+    }
+    /* navbar responsive done */
+    /* banner section starts */
+    .input-box{
+        grid-template-columns: repeat(1,1fr);
+        width: 80%;
+    }
+    input, select, .submit{
+        width: 80%;
+        margin: 0 auto;
+    }
+    .banner-title{
+        font-size: 2rem;
+        margin-top: 2rem;
+    }
+    .banner-content{
+        width: 80%;
+        margin: auto;
+    }
+    /* banner section responsive done */
+
+    /* tour section starts */
+    .tour{
+        flex-direction: column;
+        width: 90%;
+        margin: auto;
+        margin-top: 1rem;
+    }
+    .tourplace-text{
+        width: 100%;
+    }
+    .title{
+        font-size: 2rem;
+    }
+    .tourplace-image{
+        width: 100%;
+    }
+    .tourplace-image img{
+        height: 430px;
+        margin-bottom: 1rem;
+    }
+    .para-content{
+        width: 80%;
+        margin: auto;
+    }
+    /* tour section responsive done */
+    /* destination section starts */
+    .country-card img{
+        height: 250px;
+        border-radius: 1rem;
+    }
+    .row-1, .row-2, .row-3{
+        grid-template-columns: repeat(1, 1fr);
+        width: 100%;
+        margin: 0 auto;
+    }
+/* destination section responsive done */
+/* choose section starts */
+    .choose{
+        margin-top: 1rem;
+    }
+    .choose-cards{
+        grid-template-columns: repeat(1, 1fr);
+    }
+    .card1, .card2, .card3{
+        height: auto;
+    }
+/* choose section incomplete */
+/* deals section starts */
+.package-cards{
+    width: 100%;
+}
+.package-box, .package-box2, .package-box3{
+    width: 90%;
+    margin: auto;
+    height: auto;
+}
+.package-icons{
+    margin-top: 1rem;
+}
+.tour-para{
+    width: 100%;
+    margin-top: .5rem;
+}
+.tour-place{
+    margin-top: 2px;
+}
+.package-content{
+    margin-top: .5rem;
+}
+.package-button{
+    display: none;
+}
+/* deals section responsive done */
+}
 
 
 
