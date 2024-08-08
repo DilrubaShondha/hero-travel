@@ -102,11 +102,15 @@ text-align: center;}
     width: 670px;
 }
 .input-box{
-    border-radius: 8px;
+   border-radius: 8px;
    background: rgba(255, 255, 255, 0.3);
    padding: 1.2rem;
    backdrop-filter: blur;
    gap: 0.5rem;
+   width: 700px;
+
+   /* display: flex;
+   flex-direction: row; */
 }
 input, select{
     width: 170px;
@@ -324,12 +328,12 @@ news-title{
     font-size: 2.5rem;
     font-weight: 800;
 }
-.input-box{
+.newsletter-input-box{
     display: flex;
     gap: 1rem;
     flex-direction: column;
 }
-input{
+.newsletter-input{
     width: 100%;
     margin: 0 auto;
     height: 52px;
@@ -352,7 +356,8 @@ input{
     margin-bottom: 0;
 }
 .newsletter-image{
-    width: 55%;
+    width: 60%;
+    border-radius: 16px;
     background-image: url("./Images/bandarban.png");
     background-repeat: no-repeat;
     background-position: center;
@@ -365,8 +370,8 @@ input{
     color: white;
     padding: 1rem;
     width: 300px;
-    margin-left: 53%;
-    margin-top: 41%;
+    margin-left: 57%;
+    margin-top: 39%;
     transform: rotate(-19.63deg);
 }
 .travels p{
